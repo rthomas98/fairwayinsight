@@ -1,11 +1,13 @@
 import { Stack } from "expo-router";
-
 export default function Layout() {
     return (
-        <Stack>
-            <Stack.Screen name="onboarding/onboarding" options={{
+        <Stack
+            screenOptions={{
                 headerShown: false,
-            }} />
+            }}
+        >
         </Stack>
     );
+
+
 }
